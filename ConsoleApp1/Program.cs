@@ -20,12 +20,10 @@ namespace ConsoleApp1
                 var fName = CleanName(item[1]);
                 var lName = CleanName(item[2]);
                 var phone = CleanPhone(item[3]);
-                // Might be a fourth item
+                // Might be another item, we can handle it differently
 
                 if (IsNullOrEmpty(phone)) continue;
                 
-                //IsNullOrEmpty(fName) || IsNullOrEmpty(lName) || 
-
                 var newContact = new Contact()
                 {
                     Id = validId,
