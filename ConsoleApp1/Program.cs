@@ -14,6 +14,7 @@ namespace ConsoleApp1
             {
                 lineCount++;
                 var item = i.Split(',');
+
                 
                 if (!Guid.TryParse(item[0], out Guid validId)) continue;
                 
