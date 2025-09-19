@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var lines = Contacts.Split(Environment.NewLine);
+            var lines = Contacts.Split(Environment.NewLine); 
             var lineCount = 0;
             var contactList = new List<Contact>();
 
